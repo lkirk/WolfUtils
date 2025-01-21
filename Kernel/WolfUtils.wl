@@ -34,20 +34,19 @@ Begin["`Private`"];
 
 (*Data Summarization*)
 
-DisplayTable[data_, headers_] :=
-    With[{colWidths = ArrayReduce[Max, {ArrayReduce[Max[StringLength[
-        ToString[#]]& /@ #]&, data, 1], StringLength /@ headers}, 1], dims = 
-        Reverse[Dimensions[data]]},
-        TableView[data, ItemSize -> {colWidths}, Headers -> {headers},
-             AllowedDimensions -> dims]
-    ]
+tableColWidth[data_] :=
+    ArrayReduce[Max[StringLength[ToString[#]]& /@ #]&, data, 1]
 
-DisplayTable[data_] :=
-    With[{colWidths = ArrayReduce[Max[StringLength[ToString[#]]& /@ #
-        ]&, data, 1], dims = Reverse[Dimensions[data]]},
-        TableView[data, ItemSize -> {colWidths}, AllowedDimensions ->
-             dims]
-    ]
+tableColWidth[data_, headers_] :=
+    ArrayReduce[Max, {tableColWidth[data], StringLength /@ headers[[1]]}, 1]
+
+DisplayTable[data_, headers_] /; {Depth[data], Depth[headers]} == {3, 3} :=
+    With[{cw = tableColWidth[data, headers], dims = Reverse[Dimensions[data]]},
+    TableView[data, ItemSize -> {cw}, Headers -> {headers}, AllowedDimensions -> dims]]
+
+DisplayTable[data_] /; Depth[data] == 3 :=
+    With[{cw = tableColWidth[data], dims = Reverse[Dimensions[data]]},
+        TableView[data, ItemSize -> {cw}, AllowedDimensions -> dims]]
 
 (* ::Section:: *)
 
