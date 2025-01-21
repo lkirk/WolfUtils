@@ -1,19 +1,19 @@
 PacletObject[
   <|
-    "Name" -> "LloydKirk/WolfUtils",
+    "Name" -> "LKirk/WolfUtils",
     "Description" -> "Personal Wolfram Utils",
     "Creator" -> "Lloyd Kirk",
     "Version" -> "1.0.0",
     "WolframVersion" -> "14.1+",
-    "PublisherID" -> "LloydKirk",
+    "PublisherID" -> "LKirk",
     "License" -> "MIT",
-    "PrimaryContext" -> "LloydKirk`WolfUtils`",
+    "PrimaryContext" -> "LKirk`WolfUtils`",
     "DocumentationURL" -> "https://resources.wolframcloud.com/PacletRepository/resources",
     "Extensions" -> {
       {
         "Kernel",
         "Root" -> "Kernel",
-        "Context" -> {"LloydKirk`WolfUtils`"}
+        "Context" -> {"LKirk`WolfUtils`"}
       },
       {
         "Documentation",

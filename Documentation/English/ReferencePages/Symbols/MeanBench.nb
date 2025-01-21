@@ -167,7 +167,7 @@ Needs[\[Ellipsis]].", "MoreInfoText"], BaseStyle -> "IFrameBox"]],
  CellID->1230533816,ExpressionUUID->"7670a2a3-9e7a-422b-8520-259f3c494adc"],
 
 Cell[BoxData[
- RowBox[{"Needs", "[", "\"\<LloydKirk`WolfUtils`\>\"", 
+ RowBox[{"Needs", "[", "\"\<LKirk`WolfUtils`\>\"", 
   "]"}]], "ExampleInitialization",
  CellID->741173149,ExpressionUUID->"df5a4a01-4f31-4bc0-af69-c9c28a402343"]
 }, Open  ]],
@@ -317,15 +317,15 @@ Cell["Symbol", "Categorization",
  CellLabel->"Entity Type",
  CellID->559329144,ExpressionUUID->"bb625ffd-b520-4398-bfad-daab0f916c82"],
 
-Cell["LloydKirk/WolfUtils", "Categorization",
+Cell["LKirk/WolfUtils", "Categorization",
  CellLabel->"Paclet Name",
  CellID->1531368592,ExpressionUUID->"c83e858c-9508-4388-baae-80cfb4b38418"],
 
-Cell["LloydKirk`WolfUtils`", "Categorization",
+Cell["LKirk`WolfUtils`", "Categorization",
  CellLabel->"Context",
  CellID->485642972,ExpressionUUID->"2ce41230-b61d-43d8-ac27-11b3b3a5c36b"],
 
-Cell["LloydKirk/WolfUtils/ref/MeanBench", "Categorization",
+Cell["LKirk/WolfUtils/ref/MeanBench", "Categorization",
  CellLabel->"URI",
  CellID->1143584633,ExpressionUUID->"ca9cab3e-7c0d-4000-a8e0-cbc575eda29a"]
 }, Closed]],
@@ -364,7 +364,7 @@ Cell[BoxData[""], "Template",
 },
 WindowSize->{987.75, 551.25},
 WindowMargins->{{0, Automatic}, {0, Automatic}},
-TaggingRules-><|"Paclet" -> "LloydKirk/WolfUtils"|>,
+TaggingRules-><|"Paclet" -> "LKirk/WolfUtils"|>,
 FrontEndVersion->"14.1 for Linux x86 (64-bit) (July 16, 2024)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "FunctionPageStylesExt.nb", 
   CharacterEncoding -> "UTF-8"],

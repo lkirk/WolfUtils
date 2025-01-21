@@ -4,7 +4,7 @@
 
 (*Package Header*)
 
-BeginPackage["LloydKirk`WolfUtils`"];
+BeginPackage["LKirk`WolfUtils`"];
 
 (* ::Text:: *)
 

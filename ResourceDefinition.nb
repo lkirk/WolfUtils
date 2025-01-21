@@ -1,7 +1,7 @@
 Notebook[{
 
 Cell[CellGroupData[{
-Cell["LloydKirk/WolfUtils", "Title",
+Cell["LKirk/WolfUtils", "Title",
  Deletable->False,
  CellTags->{"Name", "TemplateCell", "Title"},
  CellID->565263581,ExpressionUUID->"3f2a6835-9565-4f0a-93c2-cbbd763da452"],
@@ -309,7 +309,7 @@ for your paclet."}], "MoreInfoText"], Background -> GrayLevel[0.95],
  CellTags->{"Primary Context", "PrimaryContext", "TemplateCellGroup"},
  CellID->945361513,ExpressionUUID->"939cb0a8-86e7-464e-8351-50ded99bfb53"],
 
-Cell["LloydKirk`WolfUtils`", "Text",
+Cell["LKirk`WolfUtils`", "Text",
  CellID->423470353,ExpressionUUID->"42a4bbe8-e654-4dd1-96d6-03c6468869e7"]
 }, Open  ]],
 
@@ -447,7 +447,7 @@ Cell[BoxData[
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"Needs", "[", "\"\<LloydKirk`WolfUtils`\>\"", "]"}], 
+  RowBox[{"Needs", "[", "\"\<LKirk`WolfUtils`\>\"", "]"}], 
   ";"}]], "Input", "Excluded",
  InitializationCell->True,
  CellLabel->"In[49]:=",
